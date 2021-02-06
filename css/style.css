@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.header {
+    overflow-x: hidden;
+    background-image: url(../images/pexels-david-bartus-963278.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #020017;
+    display: flex;
+}
+
+.logo {
+    width: 40%;
+    height: 80px;
+    padding-left: 50px;
+
+}
+
+.logo h1 {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #0710fa;
+}
+
+.logo h1:hover {
+    color: #00baff;
+}
+
+.menubar {
+    width: 60%;
+    height: 80px;
+}
+
+.menubar ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menubar ul li {
+    list-style: none;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menubar ul li a:hover {
+    color: blue;
+}
+
+.mango {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.mango h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.mango p {
+    width: 800px;
+    text-align: justify;
+    font-size: 20px;
+    color: red;
+}
+
+.about {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10%;
+    background: #c400ff;
+    border: 1px solid #1dff00;
+    border-radius: 10px;
+
+}
+
+.container {
+    width: 100%;
+    height: 320px;
+    background: #fff;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    position: fixed;
+    margin-top: 4%;
+}
+
+.orange {
+    font-size: 45px;
+    color: red;
+}
+
+.card-1 {
+    display: inline-block;
+    width: 550px;
+    height: 220px;
+    margin: 1% 5px;
+    font-size: 18px;
+    color: #0ce893;
+    text-align: justify;
+    border: 1px solid red;
+    padding: 8px;
+}
+
+.card-2 {
+    display: inline-block;
+    width: 550px;
+    height: 220px;
+    margin: 1% 5px;
+    font-size: 18px;
+    color: #93d807;
+    text-align: justify;
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.card-3 {
+    display: inline-block;
+    width: 550px;
+    height: 220px;
+    margin: 1% 5px;
+    font-size: 18px;
+    color: #32bbcd;
+    text-align: justify;
+    border: 1px solid blue;
+    padding: 8px;
+}
+
+.copy {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    background: gray;
+    margin-top:5.5px;
+}
